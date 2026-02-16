@@ -20,13 +20,13 @@ p, li {
 }
 
 html {
-  background-color: #3a86ff;
+  background-color: #0000FF;
 }
 
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #ffbe0b;
+  background-color: #ADD8E6;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }

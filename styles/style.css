@@ -31,6 +31,17 @@ divRojo{
   position:absolute;
   top:40%;
   left:28%;
+  animation-name: cambiasombrero;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cambiasombrero {
+  0% {background-color: antiquewhite; height:0%}
+  25% {background-color: rgb(147, 223, 152);}
+  50% {background-color: rgb(176, 148, 201);}
+  100% {background-color: rgb(213, 47, 47); heigth: 20%}
+
 }
 
 #lengua {
@@ -43,13 +54,23 @@ divRojo{
   left:30%;
 }
 
+#lengua:hover {
+  background-color: rgb(86, 86, 160);
+}
+
 #cara {
   width: 60%;
   height: 70%;
   background-color: gold;
   border-radius: 50%;
   position:relative;
+  transition:all 4s ease-in
 }
+
+#cara:hover{
+  transform: rotate(360deg) scale(0.5);
+}
+
 .pestañas {
   width: 2%;
   height: 10%;
@@ -106,3 +127,6 @@ top:20%;
 right:60%;
 }
 
+.boca:hover  {
+  background-color: rgb(157, 194, 237);
+  } 
